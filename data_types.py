@@ -1,4 +1,6 @@
 
+
+#Sequntial Data types
 #LIST
 
 a = [1,2,3,55,3 ] 
@@ -35,3 +37,31 @@ print(a)
 
 a.sort()
 print(a)
+
+
+# Tuple 
+
+t = (3,8,26,34,54)
+print(t)
+
+# Indexing and sclicing ?  Home Work 
+
+
+#Dictionary: is used to store data in key value format
+
+d = {"a": "sachin", "b": "virat", "c": "dravid" }
+
+print(d)
+
+#To add the  new data in key and value format
+d["d"] = "zaheer"
+print(d)
+
+del d["b"]
+print (d)
+
+
+#####################################
+# Home Work
+# Range Data Type Find Out 
+# Indexing and sclicing ? (Tuple) Home Work 
