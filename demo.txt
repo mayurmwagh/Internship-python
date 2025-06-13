@@ -1,0 +1,77 @@
+✅ What are Operators?
+Operators are special symbols in programming used to perform operations on variables and values. They are the backbone of expressions and allow us to perform computations, make decisions, and manipulate data.
+
+Importance of Operators in Programming
+Enable arithmetic calculations
+
+Allow data comparisons
+
+Help in decision-making using logical conditions
+
+Support assignments and loops
+
+Foundation for creating algorithms and logic
+
+
+
+Arithmetic Operators
+ Operator   Name	            Description                         	Example
++	        Addition	        Adds two operands	                    3 + 2 = 5
+-	        Subtraction	        Subtracts second from first	            5 - 3 = 2
+*	        Multiplication      Multiplies operands	                    4 * 2 = 8
+/	        Division	        Divides first by second 	            5 / 2 = 2.5
+//	        Floor Division  	Divides and rounds down	                5 // 2 = 2
+%	        Modulus         	Remainder of division	                5 % 2 = 1
+**	        Exponentiation  	Raises first to the power of second	    2 ** 3 = 8
+
+
+
+📝 Assignment Operators
+✅ Basic Assignment
+= : Assigns right-hand value to left-hand variable
+Example: x = 5
+
+✅ Compound Assignment
+Shorthand for applying an operator and assignment together:
+
+Operator	Equivalent to	Example (if x = 5)
++=	        x = x + 2	      x += 2 → 7
+-=	        x = x - 2	      x -= 2 → 3
+*=	        x = x * 2	      x *= 2 → 10
+/=      	x = x / 2	      x /= 2 → 2.5
+%=	        x = x % 2	      x %= 2 → 1
+//=	        x = x // 2	      x //= 2 → 2
+**=	        x = x ** 2	      x **= 2 → 25
+
+
+
+✅ What are Logical Operators?
+Logical operators are used to combine conditional statements and control the flow of decision-making in programs. They return True or False based on the logic applied to operands (usually Boolean expressions).
+
+🧠 Types of Logical Operators
+Operator	Description                         	Syntax          Example	Result
+and	        True if both conditions are true	    True and False	    False
+or	        True if at least one condition is true	True or False	    True
+not     	Reverses the logical state	not True	False
+
+
+
+📌 Truth Table
+🔹 and Operator
+A	      B	   A and B
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+🔹 or Operator
+A	      B	    A or B
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+🔹 not Operator
+A	not  A
+True	False
+False	True
